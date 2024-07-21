@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.menu {
+  background-color: #10101de5;
+  padding: 3vh 15vw;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.submenu {
+  display: flex;
+  gap: 2vw;
+}
+.submenu a {
+  text-decoration: none;
+  color: white;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15.6px;
+  text-transform: uppercase;
+}
+.submenu a:hover {
+  color: #43abf0;
+}
+.container {
+  width: 100vw;
+}
+.banner {
+  background-image: url(../Picture/Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vh 15vw;
+  align-items: center;
+}
+.bannerheader {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 5vh;
+}
+
+.bannerheader span {
+  color: #3e9cdc;
+}
+
+.info {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.info p {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.button {
+  margin-top: 5vw;
+}
+
+.button button {
+  padding: 1vh 2vw;
+  text-transform: uppercase;
+}
+.active {
+  margin-right: 2vw;
+  background-color: #3e9cdc;
+  border: 1px solid white;
+  color: white;
+}
+.active:hover {
+  margin-right: 2vw;
+  background-color: white;
+  border: 1px solid #6f6d7b;
+  color: #6f6d7b;
+}
+.pasive {
+  margin-right: 2vw;
+  background-color: white;
+  border: 1px solid #6f6d7b;
+  color: #6f6d7b;
+}
+
+.pasive:hover {
+  margin-right: 2vw;
+  background-color: #3e9cdc;
+  border: 1px solid white;
+  color: white;
+}
+.order {
+  background-image: url(../Picture/BG.jpg);
+  /* width: 100vw; */
+  /* height: 100vh; */
+  padding: 8vh 15vw;
+}
+.order h1, .order h2 {
+  font-family: Lato;
+  font-weight: 800;
+  line-height: 43.2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 3vh;
+}
+.order p {
+  text-align: center;
+  color: #bbbbbb;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin-bottom: 3vh;
+}
+.order h1 span {
+  color: #3e9cdc;
+}
+.icons {
+  margin: 8vh 2vw 3vh 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icons button {
+  background: none;
+  border: none;
+}
+.icon {
+  width: 5.21vw;
+}
+.dots {
+  width: 0.313vw;
+}
+.text {
+  margin: 0 3vh;
+  display: flex;
+  justify-content: space-between;
+}
+#root {
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+#file-upload {
+  color: white;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+.form-container form label {
+  display: flex;
+  height: 5vh;
+  gap: 0.5vw;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.form-container form input,
+.form-container form select,
+.form-container form textarea,
+.form-container input {
+  padding: 0.5vw;
+  margin: 1vh 1vh 1vw 0;
+  color: black;
+}
+.attach-file-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+.attach-file-button:hover {
+  background-color: #e0e0e0;
+}
+.form-container form button, .form-container button {
+  width: auto;
+  margin: 0 auto;
+  background-color: #3e9cdc;
+  border: 1px solid white;
+  color: white;
+  padding: 1vh 5vw;
+}
+.form-container form button:hover, .form-container button:hover{
+  background-color: white;
+  border: 1px solid #6f6d7b;
+  color: #6f6d7b;
+}
+
+.form-container form input[type="range"] {
+  width: calc(100% - 80px);
+}
+.form-container form .file-upload-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.displayflex {
+  display: flex;
+  gap: 1vw;
+}
+.displayflexr {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+}
+button.submit {
+  padding: 1vh 5vw;
+}
+
+.footer {
+  background-color: #3d4050;
+  padding: 3vh 15vw;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.wallet {
+  border-right: 1px solid #c3c3c3;
+  border-left: 1px solid #c3c3c3;
+  padding: 0 3vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+}
+.contact {
+  padding: 0 3vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 1vw;
+}
+
+.wallet p,
+.contact a {
+  display: flex;
+  justify-content: center;
+  gap: 0.5vw;
+  align-items: center;
+}
+.date {
+  padding-right: 2vw;
+}
