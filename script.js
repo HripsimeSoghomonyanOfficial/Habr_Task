@@ -66,8 +66,8 @@ function displayFileForm() {
     }
 }
 
-// Call the function when the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", displayFileForm);
+document.getElementById("file").addEventListener("click", displayFileForm);
 
 document.getElementById("search").addEventListener("click", () => {
     const formHTML = `
@@ -142,3 +142,5 @@ function submitDollar() {
     const dollarAmount = document.getElementById("dollar-amount").value;
     document.getElementById("root").innerHTML += `<p>Dollar amount submitted: $${dollarAmount}</p>`;
 }
+
+

@@ -33,7 +33,7 @@
   width: 100vw;
 }
 .banner {
-  background-image: url(../Picture/Banner.jpg);
+  background-image: url("https://github.com/HripsimeSoghomonyanOfficial/Habr_Task/blob/main/Picture/BG.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
