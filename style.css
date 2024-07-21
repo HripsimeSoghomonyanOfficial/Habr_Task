@@ -33,7 +33,7 @@
   width: 100vw;
 }
 .banner {
-  background-image: url("https://github.com/HripsimeSoghomonyanOfficial/Habr_Task/blob/main/Picture/BG.jpg?raw=true");
+  background-image: url("https://github.com/HripsimeSoghomonyanOfficial/Habr_Task/blob/main/Picture/Banner.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -106,7 +106,7 @@
   color: white;
 }
 .order {
-  background-image: url(../Picture/BG.jpg);
+  background-image: url("https://github.com/HripsimeSoghomonyanOfficial/Habr_Task/blob/main/Picture/BG.jpg?raw=true");
   /* width: 100vw; */
   /* height: 100vh; */
   padding: 8vh 15vw;
